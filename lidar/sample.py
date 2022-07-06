@@ -5,7 +5,7 @@ import time
 
 from LidarX2 import LidarX2
 
-lidar = LidarX2("/dev/ttyUSB0")  # "/dev/cu.SLAB_USBtoUART")  # Name of the serial port, can be /dev/tty*, COM*, etc.
+lidar = LidarX2("/dev/ttyUSB0")
 
 if not lidar.open():
     print("Cannot open lidar")
